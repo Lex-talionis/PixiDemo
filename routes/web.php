@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pokemon');
+});
+
+Route::get('/sidescroll', function () {
+    return view('sidescroll');
 });
